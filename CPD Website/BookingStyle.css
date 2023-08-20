@@ -1,0 +1,119 @@
+/* section 1 */
+
+.b-s1{
+    margin: 0 4rem;
+    display: grid;
+}
+.b-s1 .box1{
+    padding: 2rem;
+    background-color: var(--bgcolor4);
+    color: var(--textcolor1);
+    text-align: center;
+    grid-column-start: span 2;
+}
+.b-s1 .box2{
+    padding: 2rem;
+    background-color: rgb(61, 60, 60);
+    text-align: center;
+    width: 20rem;
+}
+.b-s1 .box3{
+    padding: 2rem;
+    background: rgb(95,7,153);
+    background: linear-gradient(90deg, rgba(95,7,153,1) 57%, rgba(168,14,14,1) 100%);
+    color: var(--textcolor1);
+    text-align: center;
+    width: 59rem;
+}
+
+/* section 2 */
+
+.b-s2{
+    padding: 2rem 4rem 4rem 4rem;
+    position: relative;
+}
+.FormHeading{
+    text-align: center;
+}
+.Form{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.processStage{
+    justify-content: start;
+    border-bottom: solid .01rem lightgray;
+    border-top: solid .01rem lightgray;
+    margin: 0 1rem;
+    padding: 1rem 0;
+}
+.processStage h3{
+    margin-left: .5em;
+    margin-right: .5em;
+    background-color: rgb(182, 177, 177);
+    border-radius: 2em;
+    padding: .1em .5em;
+    font-weight: 100;
+}
+.processStage h3:nth-child(1){
+    background-color: rgb(118, 16, 16);
+    color: var(--textcolor1);
+}
+.selectOptions{
+    margin: 3rem 1rem;
+    /* position: relative; */
+}
+.selectOptions p{
+    color: var(--textcolor4);
+    font-weight: 600;
+    padding: .5rem 0;
+}
+.selectOptions input{
+    padding: .5rem;
+    width: 40rem;
+}
+.selectOptions .fa-angle-left{
+    position: relative;
+    left: -2rem;
+    transition: .2s ease-in-out;
+}
+.selectOptions .fa-angle-left.active{
+    transform: rotate(-90deg);
+}
+.dropdown-menu{
+    width: 41.2rem;
+    position: absolute;
+    /* z-index: 1; */
+    /* visibility: hidden; */
+    /* top: 1rem; */
+    transition: .2s ease-in-out;
+}
+.op1{
+    background-color: var(--bgcolor1);
+    position: relative;
+    top: -4.5rem;
+    right: 2rem;
+}
+/* .dropdown-menu:hover{
+    transform: translateY(4.4rem);
+    visibility: visible; 
+} */
+.dropdown-menu .op1.menu{
+    transform: translateY(4.4rem);
+    visibility: visible;
+    /* top: 22.5rem; */
+    /* transition: .2s ease-in-out; */
+}
+.dropdown-menu li{
+    padding-bottom: .1rem rgb(180, 179, 179);
+    border: .01rem solid;
+    padding: .5rem;
+}
+.selectOptions button{
+    margin-top: 1rem;
+    z-index: -1;
+}
+
+
+
+
